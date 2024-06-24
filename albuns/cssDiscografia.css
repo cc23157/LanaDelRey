@@ -1,0 +1,100 @@
+.card {
+    display:inline-block;
+    width: 20%;
+    margin: 50px;
+    font-family: Roboto condensed; 
+    line-height: 1.5;
+    color:#3a3636;
+    background-color:#f3eeeb;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.card:hover {
+    background-color:#bb6666;
+    color: #f3eeeb;
+    cursor: pointer;
+}
+.imgCard {
+    width: 100%;
+}
+.textoCard {
+    padding: 15px;
+    padding-bottom: 0;
+}
+.spotify {
+    width: 25px;
+    padding-bottom: 15px;
+}
+
+.popupFundo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.4);
+    display: none;
+    animation: fadeIn .8s;
+}
+.popup {
+    width: 35%;
+    height: 65%;
+    margin: auto;
+    margin-top: 100px;
+    padding: 30px;
+    line-height: 2;
+    font-size: larger;
+    text-align: left;
+    color: #3a3636;
+    background-color: #f3eeeb;
+    box-shadow: gray;
+    border-radius: 5px;
+    overflow: auto;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.botao:hover {
+    cursor: pointer;
+}
+
+body {
+    color:#3a3636;
+    font-family: Roboto condensed;
+    text-align: center;
+    font-size: larger;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;  
+}
+.secao1 {
+    background-color:#f3eeeb;
+    margin: 0px;
+    padding:0px; 
+    flex-grow: 1;
+}
+.secao2 {
+    background-color:#e5cbcf;
+    margin: 0px;
+    padding: 0px; 
+    flex-grow: 1;
+}
+
+h1 {
+    font-family: "Playfair+Display:ital,wght@1,500";
+    color:#bb6666;
+    font-size: 60px;
+}
+#subtitulo {
+    font-size:25px;
+    padding-bottom: 20px;
+    font-family: playfair display;
+}
+.topico {
+    text-align:center;
+    font-family: Castoro Titling;
+    font-size: 30px;
+    padding-top: 35px;
+}

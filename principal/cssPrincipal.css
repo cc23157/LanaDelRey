@@ -1,0 +1,129 @@
+body {
+    color: #3a3636;
+    font-family: Roboto condensed;
+    background-color: #f3eeeb;
+}
+h1 {
+    font-family: "Playfair+Display:ital,wght@1,500";
+    color: #bb6666;
+    font-size: 50px;
+    text-align: center;
+}
+#subtitulo {
+    font-family: playfair display;
+    font-size: 20px;
+    text-align: center;
+}
+
+p img {
+    display: flex;
+    width:300px;
+    object-fit: cover;
+    float: right;
+    margin: 30px;
+    border: 2px solid #bb6666;
+    margin-right: 0;
+}
+
+#texto {
+    margin: 75px;
+    padding: 15px;
+    font-size: larger;
+    line-height: 2;
+    text-align: justify;
+}
+.tab {
+    display: inline-block;
+    margin-left: 50px;
+}
+
+#sociaisTexto {
+    text-align: center;
+    font-size: larger;
+    margin-top: 0;
+    line-height: 3;
+}
+#sociais img {
+    width: 25px;
+    height: 25px;
+    display: inline-flex;
+}
+#sociais a {
+    display: inline-block;
+}
+
+.menuDireita {
+    padding: 15px;
+    width: fit-content;
+    display: inline;
+    float: right;
+}
+.menuDireita:hover {
+    background-color: #cfa5a5;
+    color: #3a3636;
+    cursor: pointer;
+}
+
+.tamanho {
+    width: 100%;
+    height:25px;
+    border-radius: 5px;
+    border: none
+}
+textarea {
+    width: 100%;
+    overflow-y:scroll;
+    border-radius: 5px;
+    border: none;
+    height: 200px
+}
+button {
+    padding: 10px;
+    background-color: #cfa5a5;
+    border-radius: 5px;
+    border: none;
+    color: #f3eeeb;
+}
+button:hover {
+    background-color: #bb6666;
+    cursor: pointer;
+}
+
+#formFundo, #sociaisFundo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,.4);
+    display: none;
+    animation: fadeIn .8s;
+}
+#form, #sociais {
+    background-color: #f3eeeb;
+    margin: auto;
+    width: 35%;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    padding: 30px;
+    line-height: 2;
+    font-size: large;
+    border-radius: 5px;
+    font-size: large;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.botao {
+    float: left;
+}
+.botao:hover {
+    cursor: pointer;
+}
